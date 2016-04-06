@@ -12,4 +12,4 @@ html structure:<br/>
 &lt;div class="show"&gt;show all&lt;/div&gt;</p>
 
 init:<br/>
-$('.my_tiles').showHide({showButton: '.show'});
+$('.my_tiles').showMeMore({showButton: '.show'});
