@@ -2,7 +2,7 @@
 simple plugin to show/hide tiles of content
 
 <p>
-html structure:
+html structure:<br/>
 &lt;ul class="my_tiles"&gt;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;my tile 1&lt;/li&gt;<br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&lt;li&gt;my tile 2&lt;/li&gt;<br/>
