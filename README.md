@@ -1,5 +1,5 @@
 # showMeMore
-simple plugin to show/hide tiles of content
+simple jQuery plugin to show/hide tiles of content
 
 <p>
 html structure:<br/>
