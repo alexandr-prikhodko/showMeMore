@@ -9,19 +9,19 @@
     <script>
         $(document).ready(function () {
             $('.my_tiles').showMeMore({
-                current: 3,
-                count: 3,
-                showButtonText: 'show me more',
-                hideButtonText: 'hide all tiles',
-                enableHide: true
+                current: 3,//стартовое количество 3
+                count: 3,//по сколько отображать при клике  3
+                showButtonText: 'show me more',//текст на кнопке показа
+                hideButtonText: 'hide all tiles',//текст на кнопке "скрыть"
+                enableHide: true//разрешить функцию "скрыть элементы"
             });
             $('.my_tiles_1').showMeMore({
-                current: 6,
-                count: 3,
-                fadeSpeed: 1000,
-                showButton: '.showBtn',
-                hideButton: '.hideBtn',
-                list: '.tile_item'
+                current: 6,//стартовое количество 6
+                count: 3,//по сколько отображать при клике  3
+                fadeSpeed: 1000, //установим время анимации в 1 сек
+                showButton: '.showBtn', //класс внопки показа
+                hideButton: '.hideBtn', //класс кнопки скрытия
+                list: '.tile_item' //установим элементы для плагина
             });
         })
     </script>
@@ -40,14 +40,10 @@ $('.my_tiles').showMeMore({
 });
 </pre>
         <p><b>current: 3</b> - показать при старте три елемента</p>
-
         <p><b>count: 3</b> - по сколько элементов показывать при клике</p>
-
         <p><b>showButtonText: 'show me more'</b> - текст кнопки для показа следующих елементов</p>
-
         <p><b>enableHide: true</b> - включаем функцию "спрятать елементы" (кнопка показывается после того как будут отображены
             все элементы)</p>
-
         <ul class="my_tiles clearfix">
             <li>my tile 1</li>
             <li>my tile 2</li>
@@ -76,26 +72,22 @@ $('.my_tiles_1').showMeMore({
         <p><b>hideButton: '.hideBtn'</b> - передаем плагину свою кнопку "спрятать" (отключает генерацию стандартной)</p>
         <p><b>list: '.tile_item'</b> - указываем элементы для плагина внутри контейнера</p>
         <div class="my_tiles_1 clearfix">
-            <div class="tile_item">my tile 1</div>
-            <div class="tile_item">my tile 2</div>
-            <div class="tile_item">my tile 3</div>
-            <div class="tile_item">my tile 4</div>
-            <div class="tile_item">my tile 5</div>
-            <div class="tile_item">my tile 6</div>
-            <div class="tile_item">my tile 7</div>
-            <div class="tile_item">my tile 8</div>
-            <div class="tile_item">my tile 9</div>
-            <div class="tile_item">my tile 10</div>
-            <div class="tile_item">my tile 11</div>
-            <div class="tile_item">my tile 12</div>
-            <div class="tile_item">my tile 13</div>
-            <div class="tile_item">my tile 14</div>
-            <div class="tile_item">my tile 15</div>
+            <div class="tile_item">tile 1</div>
+            <div class="tile_item">tile 2</div>
+            <div class="tile_item">tile 3</div>
+            <div class="tile_item">tile 4</div>
+            <div class="tile_item">tile 5</div>
+            <div class="tile_item">tile 6</div>
+            <div class="tile_item">tile 7</div>
+            <div class="tile_item">tile 8</div>
+            <div class="tile_item">tile 9</div>
+            <div class="tile_item">tile 10</div>
+            <div class="tile_item">tile 11</div>
+            <div class="tile_item">tile 12</div>
         </div>
         <button class="showBtn">кнопка для показа</button>
         <button class="hideBtn">кнопка для скрытия</button>
     </div>
-
 </div>
 </body>
 </html>
