@@ -1,0 +1,30 @@
+body{
+    margin: 50px;
+    text-align: center;
+}
+.my_tiles,
+.div_tiles{
+    display: inline-block;
+    width: 560px;
+    background: #d5d5d5;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 50px;
+}
+.my_tiles{float: left;}
+.div_tiles{float: right;}
+button{
+    clear: both;
+    display: block;
+    margin: 0 auto;
+}
+
+.my_tiles li,
+.div_tiles div{
+    box-sizing: border-box;
+    width: 100px;
+    margin: 30px 20px;
+    float: left;
+    height: 50px;
+    border: 1px solid gray;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="showMeMore.js"></script>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>dev page</title>
+    <script>
+        $(document).ready(function(){
+            $('.my_tiles').showMeMore({
+                current: 4,
+                showButtonText: 'show me more',
+                enableHide: true,
+                count: 4
+            });
+            $('.div_tiles').showMeMore({
+                current: 4,
+                list: 'div'
+            });
+        })
+    </script>
+</head>
+<body>
+<ul class="my_tiles">
+    <li>my tile 1</li>
+    <li>my tile 2</li>
+    <li>my tile 3</li>
+    <li>my tile 4</li>
+    <li>my tile 5</li>
+    <li>my tile 6</li>
+    <li>my tile 7</li>
+    <li>my tile 8</li>
+    <li>my tile 9</li>
+    <li>my tile 10</li>
+    <li>my tile 11</li>
+    <li>my tile 12</li>
+    <li>my tile 13</li>
+    <li>my tile 14</li>
+    <li>my tile 15</li>
+    <li>my tile 16</li>
+    <li>my tile 17</li>
+    <li>my tile 18</li>
+    <li>my tile 19</li>
+    <li>my tile 20</li>
+    <li>my tile 21</li>
+    <li>my tile 22</li>
+    <li>my tile 23</li>
+    <li>my tile 24</li>
+    <li>my tile 25</li>
+    <li>my tile 26</li>
+    <li>my tile 27</li>
+    <li>my tile 28</li>
+    <li>my tile 29</li>
+    <li>my tile 30</li>
+</ul>
+<div class="div_tiles">
+    <div>div text 1</div>
+    <div>div text 2</div>
+    <div>div text 3</div>
+    <div>div text 4</div>
+    <div>div text 5</div>
+    <div>div text 6</div>
+    <div>div text 7</div>
+    <div>div text 8</div>
+    <div>div text 9</div>
+    <div>div text 10</div>
+    <div>div text 11</div>
+    <div>div text 12</div>
+    <div>div text 13</div>
+    <div>div text 14</div>
+    <div>div text 15</div>
+    <div>div text 16</div>
+    <div>div text 17</div>
+    <div>div text 18</div>
+    <div>div text 19</div>
+    <div>div text 20</div>
+    <div>div text 21</div>
+    <div>div text 22</div>
+    <div>div text 23</div>
+    <div>div text 24</div>
+    <div>div text 25</div>
+    <div>div text 26</div>
+    <div>div text 27</div>
+    <div>div text 28</div>
+    <div>div text 29</div>
+    <div>div text 30</div>
+</div>
+</body>
+</html>
