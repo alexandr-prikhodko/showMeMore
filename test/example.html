@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/jquery.showMeMore-min.js"></script>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <title>dev page</title>
+    <script>
+        $(document).ready(function () {
+            $('.my_tiles').showMeMore({
+                current: 3,
+                count: 3,
+                showButtonText: 'show me more',
+                hideButtonText: 'hide all tiles',
+                enableHide: true
+            });
+            $('.my_tiles_1').showMeMore({
+                current: 6,
+                count: 3,
+                fadeSpeed: 1000,
+                showButton: '.showBtn',
+                hideButton: '.hideBtn',
+                list: '.tile_item'
+            });
+        })
+    </script>
+</head>
+<body>
+<div class="content">
+    <div class="example_1">
+            <pre>
+$('.my_tiles').showMeMore({
+    current: 3,
+    count: 3,
+    showButtonText: 'show me more',
+    hideButtonText: 'hide all tiles',
+    enableHide: true
+});
+</pre>
+        <p><b>current: 3</b> - показать при старте три елемента</p>
+
+        <p><b>count: 3</b> - по сколько элементов показывать при клике</p>
+
+        <p><b>showButtonText: 'show me more'</b> - текст кнопки для показа следующих елементов</p>
+
+        <p><b>enableHide: true</b> - включаем функцию "спрятать елементы" (кнопка показывается после того как будут отображены
+            все элементы)</p>
+
+        <ul class="my_tiles clearfix">
+            <li>my tile 1</li>
+            <li>my tile 2</li>
+            <li>my tile 3</li>
+            <li>my tile 4</li>
+            <li>my tile 5</li>
+            <li>my tile 6</li>
+            <li>my tile 7</li>
+            <li>my tile 8</li>
+            <li>my tile 9</li>
+        </ul>
+    </div>
+    <div class="example_2">
+            <pre>
+$('.my_tiles_1').showMeMore({
+    current: 6,
+    count: 3,
+    fadeSpeed: 1000,
+    showButton: '.showBtn',
+    hideButton: '.hideBtn',
+    list: '.tile_item'
+});
+</pre>
+        <p><b>fadeSpeed: 1000</b> - скорость показа итема (ms)</p>
+        <p><b>showButton: '.showBtn'</b> - передаем плагину свою кнопку "показать" (отключает генерацию стандартной)</p>
+        <p><b>hideButton: '.hideBtn'</b> - передаем плагину свою кнопку "спрятать" (отключает генерацию стандартной)</p>
+        <p><b>list: '.tile_item'</b> - указываем элементы для плагина внутри контейнера</p>
+        <div class="my_tiles_1 clearfix">
+            <div class="tile_item">my tile 1</div>
+            <div class="tile_item">my tile 2</div>
+            <div class="tile_item">my tile 3</div>
+            <div class="tile_item">my tile 4</div>
+            <div class="tile_item">my tile 5</div>
+            <div class="tile_item">my tile 6</div>
+            <div class="tile_item">my tile 7</div>
+            <div class="tile_item">my tile 8</div>
+            <div class="tile_item">my tile 9</div>
+            <div class="tile_item">my tile 10</div>
+            <div class="tile_item">my tile 11</div>
+            <div class="tile_item">my tile 12</div>
+            <div class="tile_item">my tile 13</div>
+            <div class="tile_item">my tile 14</div>
+            <div class="tile_item">my tile 15</div>
+        </div>
+        <button class="showBtn">кнопка для показа</button>
+        <button class="hideBtn">кнопка для скрытия</button>
+    </div>
+
+</div>
+</body>
+</html>

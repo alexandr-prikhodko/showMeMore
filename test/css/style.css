@@ -1,0 +1,77 @@
+body{
+    margin: 10px;
+}
+.content{
+    width: 90%;
+    margin: 0 auto;
+}
+div[class*='example']{
+    border-bottom: 1px solid black;
+    margin:  0 0 20px;
+}
+button{
+    clear: both;
+    display: block;
+    margin: 30px auto;
+}
+pre{
+    display: inline-block;
+    padding: 10px;
+    background: #e5e5e5;
+    border: 1px solid grey;
+}
+.clearfix {
+    overflow: auto;
+    zoom: 1;
+}
+/*===============================*/
+.my_tiles{
+    list-style: none;
+    width: 90%;
+    margin: 50px auto 0;
+}
+.my_tiles li{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin-bottom: 30px;
+    width: 30%;
+    height: 80px;
+
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+
+    background: #ab312d;
+    border: 1px solid #bcbcbc;
+}
+.my_tiles li:nth-child(3n-1){
+    margin: 0 5%;
+}
+/*===============================*/
+.my_tiles_1{
+    width: 90%;
+    margin: 50px auto 0;
+}
+.my_tiles_1 div{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+    margin-bottom: 30px;
+    width: 30%;
+    height: 80px;
+
+    line-height: 80px;
+    text-align: center;
+    vertical-align: middle;
+
+    background: #a8ab35;
+    border: 1px solid #bcbcbc;
+}
+.my_tiles_1 div:nth-child(3n-1){
+    margin: 0 5%;
+}
