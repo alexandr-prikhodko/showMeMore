@@ -9,19 +9,19 @@
     <script>
         $(document).ready(function () {
             $('.my_tiles').showMeMore({
-                current: 3,//стартовое количество 3
-                count: 3,//по сколько отображать при клике  3
-                showButtonText: 'show me more',//текст на кнопке показа
-                hideButtonText: 'hide all tiles',//текст на кнопке "скрыть"
-                enableHide: true//разрешить функцию "скрыть элементы"
+                current: 3,
+                count: 3,
+                showButtonText: 'show me more',
+                hideButtonText: 'hide all tiles',
+                enableHide: true
             });
             $('.my_tiles_1').showMeMore({
-                current: 6,//стартовое количество 6
-                count: 3,//по сколько отображать при клике  3
-                fadeSpeed: 1000, //установим время анимации в 1 сек
-                showButton: '.showBtn', //класс внопки показа
-                hideButton: '.hideBtn', //класс кнопки скрытия
-                list: '.tile_item' //установим элементы для плагина
+                current: 6,
+                count: 3,
+                fadeSpeed: 1000,
+                showButton: '.showBtn',
+                hideButton: '.hideBtn',
+                list: '.tile_item'
             });
         })
     </script>
